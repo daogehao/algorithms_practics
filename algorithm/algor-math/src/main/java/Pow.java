@@ -50,22 +50,22 @@ public class Pow {
             return 0;
         }
         if(n == Integer.MIN_VALUE){
-            return 1/powRecursion(x,Integer.MAX_VALUE)*x;
+            return 1/dividConquer(x,Integer.MAX_VALUE)*x;
         }
 
         if( n < 0){
-            return 1/powRecursion(x,-n);
+            return 1/dividConquer(x,-n);
         }else{
-            return powRecursion(x,n);
+            return dividConquer(x,n);
         }
     }
 
-    private double powRecursion(double x ,int n){
+    private double dividConquer(double x ,int n){
         if( n == 1) {
             return x;
         }
         double temp = 0;
-        temp =  powRecursion(x,n/2);
+        temp =  dividConquer(x,n/2);
         if( n % 2 == 0){
             return temp*temp ;
         }else {
@@ -73,8 +73,41 @@ public class Pow {
         }
     }
 
-    public double myPowCycle(double x, int n) {
 
-        return 0;
+    public double myPowTeratiIon(double x, int n) {
+        if(x == 0.0f){
+            return 0.0d;
+        }
+
+        long b = n;
+        double res = 1.0;
+        if(b < 0) {
+            x = 1 / x;
+            b = -b;
+        }
+
+        while(b > 0) {
+            //举例说明，b=11,转换为二进制1011  11= 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0
+            //x^11 = x^(8+0+2+1) = x^8 * x^0 * x^2 * x^1
+
+            if((b & 1) == 1){
+                //b $ 1 取二进制1011的最右一位
+                res *= x;
+                //当二进制的为0跳过，当二进制为1用来计算res*当前层数的x^n
+            }
+            x *= x;
+            //用来计算x -> x^2 -> x^4 -> x^8
+
+            //第一次循环 b=1   x=x     res=1*x^1
+            //第二次循环 b=1   x=x^2   res=res*x^2=x^(1+2)=x^3;
+            //第三次循环 b=0   x=x^4   res保持不变
+            //第四次循环 b=1   x=x^8   res=res*x^8=x^(3+8)=x^11
+
+
+            b >>= 1;
+            //b>>1 代表将移除二进制1011的最右一位
+        }
+        return res;
+
     }
 }

@@ -40,9 +40,16 @@ class PowTest {
     }
 
     @Test
-    void myPowCycle() {
-        int n = Math.abs(-2147483648);
-        System.out.println( n );
+    void myPowTeratilon() {
+        Pow pow =new Pow();
+        double x = 2.0000d;
+        int n = 10;
+        assertEquals(pow.myPow(x,n) ,pow.myPowTeratiIon(x,n));
 
+        n = -2;
+        assertEquals(pow.myPow(x,n) ,pow.myPowTeratiIon(x,n));
+
+        n = -2147483648;
+        assertEquals(pow.myPow(x,n) ,pow.myPowTeratiIon(x,n));
     }
 }
