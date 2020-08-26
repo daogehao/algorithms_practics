@@ -18,6 +18,8 @@
         <module>algor-list</module>
         <module>algor-tree</module>
         <module>algor-math</module>
+        <module>algor-queue</module>
+        <module>algor-stack</module>
     </modules>
 
     <dependencies>

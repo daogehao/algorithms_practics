@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm/algor-list/algor-list.iml" filepath="$PROJECT_DIR$/algorithm/algor-list/algor-list.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algor-math/algor-math.iml" filepath="$PROJECT_DIR$/algorithm/algor-math/algor-math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algor-queue/algor-queue.iml" filepath="$PROJECT_DIR$/algorithm/algor-queue/algor-queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algor-stack/algor-stack.iml" filepath="$PROJECT_DIR$/algorithm/algor-stack/algor-stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algor-tree/algor-tree.iml" filepath="$PROJECT_DIR$/algorithm/algor-tree/algor-tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
     </modules>

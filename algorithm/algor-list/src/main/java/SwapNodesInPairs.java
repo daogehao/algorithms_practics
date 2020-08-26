@@ -10,7 +10,7 @@ public class SwapNodesInPairs {
 
     public class ListNode{
         int val;
-        SwapNodesInPairs.ListNode next;
+        ListNode next;
         ListNode(){}
         ListNode(int val){this.val = val;}
         ListNode(int val, SwapNodesInPairs.ListNode next){ this.val = val; this.next = next;}

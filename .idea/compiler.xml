@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="algor-queue" />
         <module name="algor-math" />
+        <module name="algor-stack" />
         <module name="algor-tree" />
         <module name="algor-list" />
       </profile>
@@ -14,6 +16,8 @@
     <bytecodeTargetLevel target="8">
       <module name="algor-list" target="1.8" />
       <module name="algor-math" target="1.8" />
+      <module name="algor-queue" target="1.8" />
+      <module name="algor-stack" target="1.8" />
       <module name="algor-tree" target="1.8" />
       <module name="algorithm" target="1.8" />
     </bytecodeTargetLevel>
