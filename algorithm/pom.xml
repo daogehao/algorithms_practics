@@ -20,6 +20,7 @@
         <module>algor-math</module>
         <module>algor-queue</module>
         <module>algor-stack</module>
+        <module>algor-heap</module>
     </modules>
 
     <dependencies>

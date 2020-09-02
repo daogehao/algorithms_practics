@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algor-heap/algor-heap.iml" filepath="$PROJECT_DIR$/algorithm/algor-heap/algor-heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algor-heap.iml" filepath="$PROJECT_DIR$/algorithm/algor-heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algor-list/algor-list.iml" filepath="$PROJECT_DIR$/algorithm/algor-list/algor-list.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algor-math/algor-math.iml" filepath="$PROJECT_DIR$/algorithm/algor-math/algor-math.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algor-queue/algor-queue.iml" filepath="$PROJECT_DIR$/algorithm/algor-queue/algor-queue.iml" />

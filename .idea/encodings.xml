@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/algorithm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/algorithm/algor-heap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-list" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-list/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-math" charset="UTF-8" />
