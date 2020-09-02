@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 /**
  * @author caifx
  * @create Created in 21:24 2020/8/8
@@ -131,6 +133,46 @@ public class BST<Key extends Comparable<Key> ,Value> {
         postOrder(node.left);
         postOrder(node.right);
         System.out.println(node.val);
+    }
+
+    /**
+     * 功能描述:广度优先搜索(Breadth-First-Search)
+     */
+    public void bfs(){
+        if(root == null){
+            return;
+        }
+        LinkedList<Node> queue =new LinkedList();
+        queue.add(root);
+        this.bfs(queue);
+    }
+
+    private void bfs(LinkedList<Node> queue){
+        if(queue.isEmpty()){
+            return;
+        }
+
+        Node tempNode = queue.pop();
+        System.out.println(tempNode.val);
+
+        if(tempNode.left !=null){
+            queue.add(tempNode.left);
+        }
+
+        if(tempNode.right != null){
+            queue.add(tempNode.right);
+        }
+
+        bfs(queue);
+    }
+
+    /**
+     * 功能描述: 深度优先搜索（Depth-First-Search）
+     */
+    public void dfs(){
+        this.preOrder(root);
+        this.inOrder(root);
+        this.postOrder(root);
     }
 
 

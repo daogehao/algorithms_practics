@@ -90,4 +90,15 @@ class BSTTest {
         System.out.println("PostOrder:");
         bst.postOrder();
     }
+
+    @Test
+    void bfs(){
+        BST bst= new BST<Integer, String>();
+        bst.put(1,"1:a");
+        bst.put(2,"2:b");
+        bst.put(3,"3:c");
+        bst.put(3,"3:c3");
+        bst.put(4,"4:c");
+        bst.bfs();
+    }
 }

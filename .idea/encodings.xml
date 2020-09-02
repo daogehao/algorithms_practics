@@ -4,18 +4,12 @@
     <file url="file://$PROJECT_DIR$/algorithm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-list" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-list/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/algorithm/algor-list/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-math" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-math/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/algorithm/algor-math/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/algorithm/algor-queue/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/algorithm/algor-queue/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/algorithm/algor-queue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/algorithm/algor-stack" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-stack/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/algorithm/algor-stack/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-tree" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/algorithm/algor-tree/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/algorithm/algor-tree/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/algorithm/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/algorithm/src/main/resources" charset="UTF-8" />
   </component>
 </project>
