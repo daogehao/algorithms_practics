@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="algor-heap" />
         <module name="algor-list" />
+        <module name="algor-heap" />
         <module name="algor-math" />
-        <module name="algor-queue" />
         <module name="algor-stack" />
         <module name="algor-tree" />
+        <module name="algor-queue" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
